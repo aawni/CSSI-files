@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  background-image: url("http://7-themes.com/data_images/out/56/6962978-pretty-flower-background.jpg");
+  background-size: cover;
+  font-family: "Poiret One", cursive;
+  /*background-color: #2ECCFA;*/
+  font-size: 20px;
+  width: 500px;
+  height: 50px;
+  color: #08088A;
+  padding: 20px 20px 30px 400px;
+
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  border: 4px solid #08088A;
+  padding: 20px 20px 20px 20px;
+
+}
+/* id */
+#placetag {
+  color: #424242;
+}
+/* class */
+.bluetext {
+  color: blue;
+}
+/* selector {property: value;} */
