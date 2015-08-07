@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+<head>
+  <title>Your Playlist App</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/script.css">
+</head>
+  <body>
+    <h1>Your Playlist</h1>
+    {% for artist in artists %}
+      <h3>Name of Artist: {{ artist.name }}</h3>
+      <!-- <h4>Songs in your Playlist:</h4> -->
+      {% for song_key in artist.song_keys %}
+        <h5>{{ song_key.get().name }}</h5>
+      {% endfor %}
+    {% endfor %}
+
+    <form action="/" method="post">Add a new song!
+      <div>Artist: <input name="artist"></input></div>
+      <div>Song Title: <input name="song_title"></input></div>
+      <div><input type="submit" value="Add Song"></div>
+    </form>
+  </body>
+</html>
+{% endautoescape %}

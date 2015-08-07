@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+p {
+
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  border: 8px solid black;
+  padding: 50px 50px 50px 250px;
+  align-self: center;
+}
+.eightballclass {
+  background-color: #990099;
+}
+
+img {
+  padding-left: 400px;
+
+}
